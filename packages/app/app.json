@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "PocketClaw",
+    "slug": "pocketclaw",
+    "version": "0.1.0",
+    "scheme": "pocketclaw",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0d1117",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.rickray.pocketclaw",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "PocketClaw uses the camera to scan the pairing QR code shown by your host machine.",
+        "NSSupportsLiveActivities": true
+      },
+      "entitlements": {
+        "com.apple.security.application-groups": [
+          "group.com.rickray.pocketclaw"
+        ]
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-camera",
+      [
+        "@bacons/apple-targets",
+        {
+          "appleTeamId": "REPLACE_WITH_YOUR_TEAM_ID"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "pocketclaw",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pocket command center for Claude Code — Dynamic Island progress & approvals, workspace switching, an overseer session, and Obsidian daily logs. Inspired by Happy (slopus/happy, MIT).",
+  "workspaces": [
+    "packages/shared",
+    "packages/host",
+    "packages/app"
+  ],
+  "scripts": {
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "host": "npm run dev -w @pocketclaw/host",
+    "app": "npm run start -w pocketclaw-app"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "overrides": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "license": "MIT"
+}
