@@ -49,5 +49,5 @@ sessions/*.jsonl). Default port 8787, bearer-token auth, intended for tailnet us
 - NOT yet verified end-to-end: real Agent SDK session traffic through `src/claudeAdapter.ts`
   (field mapping may need fixes), Expo Go full loop, Live Activity on device
   (needs appleTeamId in app.json + `expo prebuild -p ios`), Obsidian writes (vaultPath unset).
-- Next steps and broader context: see `../HANDOFF.md` (kept outside the repo on purpose)
-  and ../pocketclaw-on-happy-blueprint.md.
+- Next steps and broader context live in the maintainer's local planning notes (deliberately
+  kept outside this repo). Cloners need nothing beyond this file, README.md, and docs/.
