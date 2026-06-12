@@ -1,0 +1,194 @@
+{
+  "schema": "pocketclaw.demand-evidence/hn-discussions@1",
+  "fetchedAt": "2026-06-12T12:39:01.420Z",
+  "source": {
+    "api": "https://hn.algolia.com/api/v1/search (HN Search API by Algolia)",
+    "note": "tags=story; hits ranked by Algolia relevance/popularity"
+  },
+  "queries": [
+    {
+      "query": "claude code mobile",
+      "nbHits": 127,
+      "topStories": [
+        {
+          "title": "Claude Code Mobile Client [MIT License]",
+          "points": 4,
+          "num_comments": 1,
+          "url": "https://happy.engineering",
+          "hn_url": "https://news.ycombinator.com/item?id=46430340",
+          "created_at": "2025-12-30T06:56:45Z"
+        },
+        {
+          "title": "How to Use Claude Code on Mobile",
+          "points": 4,
+          "num_comments": 0,
+          "url": "https://www.skeptrune.com/posts/claude-code-on-mobile-termux-tailscale/",
+          "hn_url": "https://news.ycombinator.com/item?id=46058793",
+          "created_at": "2025-11-26T16:05:25Z"
+        },
+        {
+          "title": "Show HN: Claude Code for Mobile GUI Automation",
+          "points": 1,
+          "num_comments": 0,
+          "url": "https://github.com/UgOrange/gui_agent_skill",
+          "hn_url": "https://news.ycombinator.com/item?id=47073173",
+          "created_at": "2026-02-19T12:44:18Z"
+        },
+        {
+          "title": "Show HN: Kirikiri – A mobile IDE for Claude Code (iOS, open source)",
+          "points": 3,
+          "num_comments": 0,
+          "url": null,
+          "hn_url": "https://news.ycombinator.com/item?id=47996198",
+          "created_at": "2026-05-03T12:18:44Z"
+        },
+        {
+          "title": "How I Use Claude Code on My Phone with Termux and Tailscale",
+          "points": 5,
+          "num_comments": 1,
+          "url": "https://www.skeptrune.com/posts/claude-code-on-mobile-termux-tailscale/",
+          "hn_url": "https://news.ycombinator.com/item?id=45644472",
+          "created_at": "2025-10-20T14:43:21Z"
+        }
+      ]
+    },
+    {
+      "query": "claude code phone",
+      "nbHits": 159,
+      "topStories": [
+        {
+          "title": "What is the best way to use Claude Code from my phone?",
+          "points": 6,
+          "num_comments": 6,
+          "url": null,
+          "hn_url": "https://news.ycombinator.com/item?id=45787595",
+          "created_at": "2025-11-02T03:12:23Z"
+        },
+        {
+          "title": "How I Use Claude Code on My Phone with Termux and Tailscale",
+          "points": 5,
+          "num_comments": 1,
+          "url": "https://www.skeptrune.com/posts/claude-code-on-mobile-termux-tailscale/",
+          "hn_url": "https://news.ycombinator.com/item?id=45644472",
+          "created_at": "2025-10-20T14:43:21Z"
+        },
+        {
+          "title": "Running Claude Code from my phone via SSH with Tailscale and tmux",
+          "points": 5,
+          "num_comments": 0,
+          "url": "https://www.qu8n.com/posts/running-claude-code-from-my-phone",
+          "hn_url": "https://news.ycombinator.com/item?id=46361465",
+          "created_at": "2025-12-23T01:41:29Z"
+        },
+        {
+          "title": "Show HN: Claude Code Remote – Access Claude Code from Your Phone",
+          "points": 3,
+          "num_comments": 2,
+          "url": "https://github.com/yazinsai/claude-code-remote",
+          "hn_url": "https://news.ycombinator.com/item?id=46627628",
+          "created_at": "2026-01-15T03:23:45Z"
+        },
+        {
+          "title": "LiteClaw – Use Claude Code from Your Phone via Telegram",
+          "points": 1,
+          "num_comments": 0,
+          "url": null,
+          "hn_url": "https://news.ycombinator.com/item?id=47660686",
+          "created_at": "2026-04-06T13:32:52Z"
+        }
+      ]
+    },
+    {
+      "query": "claude code remote",
+      "nbHits": 197,
+      "topStories": [
+        {
+          "title": "Claude Code Remote Control",
+          "points": 544,
+          "num_comments": 313,
+          "url": "https://code.claude.com/docs/en/remote-control",
+          "hn_url": "https://news.ycombinator.com/item?id=47148454",
+          "created_at": "2026-02-25T07:22:56Z"
+        },
+        {
+          "title": "Anthropic just released a mobile version of Claude Code called Remote Control",
+          "points": 13,
+          "num_comments": 1,
+          "url": "https://venturebeat.com/orchestration/anthropic-just-released-a-mobile-version-of-claude-code-called-remote",
+          "hn_url": "https://news.ycombinator.com/item?id=47150459",
+          "created_at": "2026-02-25T12:07:14Z"
+        },
+        {
+          "title": "Claude Code Remote Control",
+          "points": 12,
+          "num_comments": 6,
+          "url": "https://twitter.com/noahzweben/status/2026371260805271615",
+          "hn_url": "https://news.ycombinator.com/item?id=47141389",
+          "created_at": "2026-02-24T19:18:57Z"
+        },
+        {
+          "title": "New Claude Code Feature \"Remote Control\"",
+          "points": 10,
+          "num_comments": 0,
+          "url": null,
+          "hn_url": "https://news.ycombinator.com/item?id=47146212",
+          "created_at": "2026-02-25T01:40:24Z"
+        },
+        {
+          "title": "Anyone else having a terrible experience with Claude Code's remote control?",
+          "points": 5,
+          "num_comments": 4,
+          "url": null,
+          "hn_url": "https://news.ycombinator.com/item?id=47645915",
+          "created_at": "2026-04-05T03:39:24Z"
+        }
+      ]
+    },
+    {
+      "query": "ai agent approve phone",
+      "nbHits": 7,
+      "topStories": [
+        {
+          "title": "Show HN: ViaHuman, app for LLMs to send me notifications",
+          "points": 1,
+          "num_comments": 0,
+          "url": "https://www.viahuman.xyz/",
+          "hn_url": "https://news.ycombinator.com/item?id=46620850",
+          "created_at": "2026-01-14T18:59:14Z"
+        },
+        {
+          "title": "Show HN: Polpo – Control Claude Code (and other agents) from your phone",
+          "points": 5,
+          "num_comments": 0,
+          "url": "https://github.com/pugliatechs/polpo",
+          "hn_url": "https://news.ycombinator.com/item?id=47193388",
+          "created_at": "2026-02-28T10:32:30Z"
+        },
+        {
+          "title": "Show HN: Deterministic security solution for AI agents – OpenClaw and 2 more",
+          "points": 4,
+          "num_comments": 8,
+          "url": null,
+          "hn_url": "https://news.ycombinator.com/item?id=47466968",
+          "created_at": "2026-03-21T13:43:25Z"
+        },
+        {
+          "title": "Show HN: Linggen – Open-source AI agent with P2P remote access from your phone",
+          "points": 4,
+          "num_comments": 1,
+          "url": "https://linggen.dev/",
+          "hn_url": "https://news.ycombinator.com/item?id=47696666",
+          "created_at": "2026-04-08T21:43:31Z"
+        },
+        {
+          "title": "Show HN: Detach – Mobile UI for managing AI coding agents from your phone",
+          "points": 2,
+          "num_comments": 4,
+          "url": "https://github.com/salvozappa/detach",
+          "hn_url": "https://news.ycombinator.com/item?id=47389747",
+          "created_at": "2026-03-15T17:40:19Z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "pocketclaw.demand-evidence/npm-downloads@1",
+  "fetchedAt": "2026-06-12T12:39:55.103Z",
+  "source": {
+    "registry": "https://registry.npmjs.org (package existence + metadata)",
+    "downloads": "https://api.npmjs.org/downloads/point/<period>/<package>"
+  },
+  "packages": [
+    {
+      "name": "@anthropic-ai/claude-code",
+      "role": "market-size proxy (host CLI PocketClaw drives)",
+      "exists": true,
+      "description": "Use Claude, Anthropic's AI assistant, right from your terminal. Claude can understand your codebase, edit files, run terminal commands, and handle entire workflows for you.",
+      "latestVersion": "2.1.175",
+      "deprecated": null,
+      "downloads": {
+        "lastWeek": 11059994,
+        "lastMonth": 37858923
+      }
+    },
+    {
+      "name": "happy",
+      "role": "incumbent comparable (Happy's CLI, github.com/slopus/happy)",
+      "exists": true,
+      "description": "Mobile and Web client for Claude Code and Codex",
+      "latestVersion": "1.1.8",
+      "deprecated": null,
+      "downloads": {
+        "lastWeek": 3540,
+        "lastMonth": 14287
+      }
+    },
+    {
+      "name": "happy-coder",
+      "role": "incumbent comparable (former name of 'happy'; deprecated rename stub)",
+      "exists": true,
+      "description": "Mobile and Web client for Claude Code and Codex",
+      "latestVersion": "1.1.9",
+      "deprecated": "This package has been renamed to 'happy'. Install with: npm i -g happy",
+      "downloads": {
+        "lastWeek": 1126,
+        "lastMonth": 5747
+      }
+    },
+    {
+      "name": "omnara",
+      "role": "incumbent comparable (npm package deprecated; counts understate usage)",
+      "exists": true,
+      "description": "Deprecated npm redirect for Omnara. Install the current CLI with curl -fsSL https://omnara.com/install.sh | bash.",
+      "latestVersion": "0.6.1",
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.",
+      "downloads": {
+        "lastWeek": 33,
+        "lastMonth": 478
+      }
+    }
+  ]
+}

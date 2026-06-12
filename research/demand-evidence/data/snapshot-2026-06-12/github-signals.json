@@ -1,0 +1,249 @@
+{
+  "schema": "pocketclaw.demand-evidence/github-signals@1",
+  "fetchedAt": "2026-06-12T12:38:48.660Z",
+  "source": {
+    "api": "https://api.github.com (REST v3, X-GitHub-Api-Version 2022-11-28)",
+    "authenticated": false
+  },
+  "comparableRepos": [
+    {
+      "full_name": "slopus/happy",
+      "html_url": "https://github.com/slopus/happy",
+      "description": "Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured",
+      "stars": 21829,
+      "forks": 1821,
+      "open_issues": 769,
+      "created_at": "2025-07-18T05:53:18Z",
+      "pushed_at": "2026-06-10T22:51:31Z",
+      "license": "MIT"
+    },
+    {
+      "full_name": "omnara-ai/omnara",
+      "html_url": "https://github.com/omnara-ai/omnara",
+      "description": "Omnara (YC S25) - Talk to Your AI Agents from Anywhere!",
+      "stars": 2643,
+      "forks": 195,
+      "open_issues": 55,
+      "created_at": "2025-07-09T01:30:55Z",
+      "pushed_at": "2026-01-19T19:14:13Z",
+      "license": "Apache-2.0"
+    }
+  ],
+  "issueKeywordSearch": {
+    "repo": "slopus/happy",
+    "results": [
+      {
+        "keyword": "lock screen",
+        "total_count": 1,
+        "top_issues": [
+          {
+            "number": 338,
+            "title": "iOS Live Activities",
+            "state": "open",
+            "comments": 0,
+            "html_url": "https://github.com/slopus/happy/issues/338"
+          }
+        ]
+      },
+      {
+        "keyword": "live activity",
+        "total_count": 1,
+        "top_issues": [
+          {
+            "number": 338,
+            "title": "iOS Live Activities",
+            "state": "open",
+            "comments": 0,
+            "html_url": "https://github.com/slopus/happy/issues/338"
+          }
+        ]
+      },
+      {
+        "keyword": "notification",
+        "total_count": 52,
+        "top_issues": [
+          {
+            "number": 1383,
+            "title": "Happy not sending push notifications to iPhone when Claude Code needs attention",
+            "state": "open",
+            "comments": 0,
+            "html_url": "https://github.com/slopus/happy/issues/1383"
+          },
+          {
+            "number": 1310,
+            "title": "Refresh visible session messages on foreground",
+            "state": "open",
+            "comments": 0,
+            "html_url": "https://github.com/slopus/happy/pull/1310"
+          },
+          {
+            "number": 1258,
+            "title": "fix(codex): update app-server protocol for codex-cli 0.130.0 compatibility",
+            "state": "open",
+            "comments": 1,
+            "html_url": "https://github.com/slopus/happy/pull/1258"
+          },
+          {
+            "number": 230,
+            "title": "no notification",
+            "state": "open",
+            "comments": 1,
+            "html_url": "https://github.com/slopus/happy/issues/230"
+          },
+          {
+            "number": 1308,
+            "title": "Mobile app can miss session messages after backgrounding",
+            "state": "open",
+            "comments": 0,
+            "html_url": "https://github.com/slopus/happy/issues/1308"
+          }
+        ]
+      },
+      {
+        "keyword": "approve",
+        "total_count": 73,
+        "top_issues": [
+          {
+            "number": 1094,
+            "title": "fix(codex,gemini): use exact match for auto-approve tool names",
+            "state": "open",
+            "comments": 0,
+            "html_url": "https://github.com/slopus/happy/pull/1094"
+          },
+          {
+            "number": 1093,
+            "title": "fix(gemini): implement write-operation check in safe-yolo mode",
+            "state": "open",
+            "comments": 0,
+            "html_url": "https://github.com/slopus/happy/pull/1093"
+          },
+          {
+            "number": 808,
+            "title": "fix(cli): let Claude continue after ExitPlanMode reject with feedback",
+            "state": "open",
+            "comments": 0,
+            "html_url": "https://github.com/slopus/happy/pull/808"
+          },
+          {
+            "number": 1346,
+            "title": "GST-29: Implement run review UX in session view",
+            "state": "open",
+            "comments": 0,
+            "html_url": "https://github.com/slopus/happy/pull/1346"
+          },
+          {
+            "number": 1125,
+            "title": "retro: update CLAUDE.md rules",
+            "state": "open",
+            "comments": 0,
+            "html_url": "https://github.com/slopus/happy/pull/1125"
+          }
+        ]
+      },
+      {
+        "keyword": "self-host",
+        "total_count": 68,
+        "top_issues": [
+          {
+            "number": 1201,
+            "title": "Support corporate/self-hosted OpenAI Codex mode out of the box",
+            "state": "open",
+            "comments": 1,
+            "html_url": "https://github.com/slopus/happy/issues/1201"
+          },
+          {
+            "number": 1001,
+            "title": "Cannot connect to self host server without HTTPs certificate",
+            "state": "open",
+            "comments": 1,
+            "html_url": "https://github.com/slopus/happy/issues/1001"
+          },
+          {
+            "number": 246,
+            "title": "Self-hosting is thoroughly broken",
+            "state": "open",
+            "comments": 11,
+            "html_url": "https://github.com/slopus/happy/issues/246"
+          },
+          {
+            "number": 953,
+            "title": "Self-hosted server missing POST /v1/sessions/:id/messages — mobile app cannot send messages",
+            "state": "open",
+            "comments": 2,
+            "html_url": "https://github.com/slopus/happy/issues/953"
+          },
+          {
+            "number": 550,
+            "title": "Fails to connect after self host relay migration",
+            "state": "open",
+            "comments": 0,
+            "html_url": "https://github.com/slopus/happy/issues/550"
+          }
+        ]
+      },
+      {
+        "keyword": "self hosted",
+        "total_count": 68,
+        "top_issues": [
+          {
+            "number": 1201,
+            "title": "Support corporate/self-hosted OpenAI Codex mode out of the box",
+            "state": "open",
+            "comments": 1,
+            "html_url": "https://github.com/slopus/happy/issues/1201"
+          },
+          {
+            "number": 1001,
+            "title": "Cannot connect to self host server without HTTPs certificate",
+            "state": "open",
+            "comments": 1,
+            "html_url": "https://github.com/slopus/happy/issues/1001"
+          },
+          {
+            "number": 246,
+            "title": "Self-hosting is thoroughly broken",
+            "state": "open",
+            "comments": 11,
+            "html_url": "https://github.com/slopus/happy/issues/246"
+          },
+          {
+            "number": 953,
+            "title": "Self-hosted server missing POST /v1/sessions/:id/messages — mobile app cannot send messages",
+            "state": "open",
+            "comments": 2,
+            "html_url": "https://github.com/slopus/happy/issues/953"
+          },
+          {
+            "number": 550,
+            "title": "Fails to connect after self host relay migration",
+            "state": "open",
+            "comments": 0,
+            "html_url": "https://github.com/slopus/happy/issues/550"
+          }
+        ]
+      }
+    ]
+  },
+  "spotCheckedIssues": [
+    {
+      "repo": "slopus/happy",
+      "number": 953,
+      "exists": true,
+      "title": "Self-hosted server missing POST /v1/sessions/:id/messages — mobile app cannot send messages",
+      "state": "open",
+      "comments": 2,
+      "created_at": "2026-03-31T15:50:36Z",
+      "html_url": "https://github.com/slopus/happy/issues/953"
+    },
+    {
+      "repo": "slopus/happy",
+      "number": 1123,
+      "exists": true,
+      "title": "happy-cli: remote permission approvals get stuck loading in Claude/Codex",
+      "state": "open",
+      "comments": 2,
+      "created_at": "2026-04-17T09:26:14Z",
+      "html_url": "https://github.com/slopus/happy/issues/1123"
+    }
+  ]
+}

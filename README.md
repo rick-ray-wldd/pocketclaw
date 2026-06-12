@@ -61,9 +61,17 @@ The Live Activity's Approve button is an iOS **App Intent** that calls `POST /ap
 
 Requires Node >= 20 and a working `claude` login (Claude Code installed and authenticated).
 
+`@pocketclaw/host` is **not yet published to npm** — install from source:
+
 ```bash
-# install
-npm i -g @pocketclaw/host        # or: npx @pocketclaw/host <command>
+# clone and build
+git clone https://github.com/rick-ray-wldd/pocketclaw.git
+cd pocketclaw
+npm install
+npm run build
+
+# the CLI is packages/host/dist/cli.js — alias it so the commands below work verbatim
+alias pocketclaw="node $(pwd)/packages/host/dist/cli.js"
 
 # one-time setup: generates a bearer token in ~/.pocketclaw/config.json
 pocketclaw init
@@ -77,6 +85,8 @@ pocketclaw serve
 ```
 
 `pocketclaw serve` prints a **pairing QR code** containing `{ host, port, token }`.
+
+> Tip: from the repo root, `npm run host` starts the daemon directly in dev mode (no build step, via `tsx`).
 
 ### 2. App (iPhone)
 
@@ -114,12 +124,17 @@ PocketClaw is **transport-private by default**: it is designed to run over a [Ta
 
 Full threat model: [docs/security.md](./docs/security.md).
 
+## Why PocketClaw? (market research)
+
+PocketClaw wasn't built on a hunch. Before writing code, we measured demand for a phone-first Claude Code client: the traction of incumbent mobile clients, the feature gaps users actually file issues about, and the pricing benchmarks of comparable developer tooling. All of that evidence — data snapshots, the [market-evidence analysis](./research/demand-evidence/market-evidence.md), and the collection scripts — lives in [research/demand-evidence](./research/demand-evidence/). Every demand-signal number (GitHub, Hacker News, npm) is reproducible by running the scripts against public APIs; pricing benchmarks are manual citations, each with its source URL and access date.
+
 ## Documentation
 
 - [Wire protocol v0](./docs/protocol.md)
 - [Security & threat model](./docs/security.md)
 - [Obsidian vault integration](./docs/obsidian.md)
 - [Shipping the app to the App Store](./docs/app-store.md)
+- [Research: market evidence](./research/demand-evidence/market-evidence.md) — demand analysis, data snapshots + [reproducible collection scripts](./research/demand-evidence/)
 - [Contributing](./CONTRIBUTING.md)
 
 ## Roadmap
@@ -160,12 +175,20 @@ PocketClaw 是 Claude Code 的口袋指揮中心：一個 Expo iOS App 搭配 Ma
 
 需要 Node >= 20，且 `claude`（Claude Code）已安裝並登入。
 
+`@pocketclaw/host` 尚未發佈到 npm，請從原始碼安裝：
+
 ```bash
-npm i -g @pocketclaw/host
+git clone https://github.com/rick-ray-wldd/pocketclaw.git
+cd pocketclaw
+npm install && npm run build                 # 從原始碼建置
+alias pocketclaw="node $(pwd)/packages/host/dist/cli.js"
+
 pocketclaw init                              # 產生 ~/.pocketclaw/config.json 與 token
 pocketclaw workspace add blog ~/code/blog    # 註冊 workspace 別名
 pocketclaw serve                             # 啟動 daemon，會印出配對 QR code
 ```
+
+> 提示：在 repo 根目錄執行 `npm run host` 可直接以 dev 模式（`tsx`，免建置）啟動 daemon。
 
 ### App（iPhone）
 
@@ -194,6 +217,8 @@ PocketClaw 預設**傳輸層私有**：設計上跑在 Tailscale tailnet 內，h
 - **稽核紀錄** — 所有權限請求與決策都附加到 `~/.pocketclaw/audit.jsonl`。
 
 完整威脅模型請見 [docs/security.md](./docs/security.md)。
+
+**市場研究** — 為什麼做 PocketClaw？需求證據（同類工具的市場熱度、功能缺口、定價基準）與可重現的資料收集腳本，請見 [research/demand-evidence](./research/demand-evidence/)。
 
 ## 致謝與前人作品
 
